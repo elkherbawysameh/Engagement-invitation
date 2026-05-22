@@ -421,7 +421,7 @@ function submitR(){
   const msg=att==='yes'
     ?'تاكيد حضور - خطوبة شهد و باسل\nالاسم: '+name+'\nالحضور: سيحضر\n'+(acc==='with'?'المرافقين: '+guests+' شخص\n':'')+'الاجمالي: '+total+' شخص\n'+e.time
     :'اعتذار - خطوبة شهد و باسل\nالاسم: '+name+'\nالحضور: اعتذر\n'+e.time;
-  window.open('https://wa.me/00201005448287?text='+encodeURIComponent(msg),'_blank');
+  window.open('https://wa.me/+201005448287?text='+encodeURIComponent(msg),'_blank');
   document.getElementById('fBody').style.display='none';
   document.getElementById('okMsg').style.display='block';
 }
